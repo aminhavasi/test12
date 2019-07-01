@@ -7,3 +7,7 @@ mongoose.connect(config.get('MONGOURI'), {
     useNewUrlParser: true
 
 });
+
+module.exports = {
+    mongoose
+}
