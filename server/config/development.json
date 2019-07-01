@@ -1,0 +1,5 @@
+{
+    "LEVEL": "develoment",
+    "PORT": 3000,
+    "MONGOURI": "mongodb://localhost:27017/PA_BD"
+}

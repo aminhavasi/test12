@@ -1,0 +1,19 @@
+{
+  "name": "pa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "export NODE_ENV=test ||\"SET NODE_ENV=test\"&& nodemon --exec 'npm start'",
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.2"
+  }
+}
