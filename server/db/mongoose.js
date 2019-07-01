@@ -5,4 +5,5 @@ mongoose.Promise = global.Promise;
 mongoose.connect(config.get('MONGOURI'), {
     useCreateIndex: true,
     useNewUrlParser: true
+
 });
