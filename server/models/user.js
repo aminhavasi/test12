@@ -29,7 +29,7 @@ let userschema = new mongoose.Schema({
     }
 });
 
-let User = mongoose.model('max', userschema);
+let User = mongoose.model('User', userschema);
 
 module.exports = {
     User
