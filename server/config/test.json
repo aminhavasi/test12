@@ -1,5 +1,5 @@
 {
-    "LEVEL": "develoment",
-    "PORT": 3000,
-    "MONGOURI": "mongodb://localhost:27017/BB"
+    "LEVEL": "test",
+    "PORT": 5000,
+    "MONGOURI": "mongodb://localhost:27017/testdb"
 }

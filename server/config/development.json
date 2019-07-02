@@ -1,5 +1,6 @@
 {
-    "LEVEL": "develoment",
+    "LEVEL": "development",
     "PORT": 3000,
-    "MONGOURI": "mongodb://localhost:27017/PA_BD"
+    "MONGOURI": "mongodb://localhost:27017/devdb",
+    "JWT_SECRET": "uniazad"
 }
